@@ -1,0 +1,24 @@
+/* Complementos do site de conteúdo/afiliado sobre o estilo.css da loja. */
+.aviso-afiliado { font-size: .88rem; color: var(--cor-texto-suave); background: var(--cor-suave); border-radius: var(--raio); padding: 10px 14px; margin: 16px 0; }
+.grade-tipos { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.tipo-card { display: flex; flex-direction: column; gap: 6px; height: 100%; padding: 18px; border-radius: var(--raio); background: #fff; border: 1px solid var(--cor-borda, #eadfdc); color: var(--cor-texto); text-decoration: none; }
+.tipo-card:hover { box-shadow: var(--sombra); }
+.tipo-card strong { font-family: var(--fonte-titulo, Fraunces, Georgia, serif); font-size: 1.15rem; color: var(--cor-primaria-escura); }
+.tipo-card span { font-size: .93rem; color: var(--cor-texto-suave); }
+.rotinas--duas { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin: 20px 0; }
+.rotina h2 { font-size: 1.2rem; margin: 0; }
+.passos li { margin-bottom: 6px; }
+.conteudo--largo { max-width: 1000px; }
+.lista-artigos { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.artigo-item { padding: 16px; border-radius: var(--raio); background: #fff; border: 1px solid var(--cor-borda, #eadfdc); }
+.artigo-item h3 { margin: 0 0 6px; font-size: 1.1rem; }
+.artigo-item p { margin: 0; color: var(--cor-texto-suave); }
+.artigo blockquote { margin: 16px 0; padding: 8px 16px; border-left: 4px solid var(--cor-primaria); background: var(--cor-suave); }
+.produto-inline { display: flex; gap: 14px; align-items: center; padding: 12px; margin: 20px 0; border-radius: var(--raio); background: var(--cor-suave); }
+.produto-inline svg { width: 88px; height: 88px; flex: none; border-radius: 8px; }
+.produto-inline p { margin: 0 0 6px; }
+.produto-inline__nome { font-weight: 700; }
+.erro { color: var(--cor-erro); font-weight: 600; min-height: 1.6em; margin: 10px 0 0; }
+.acoes { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+.link-afiliado { font-weight: 600; }
+.lojas-extra { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: .9rem; color: var(--cor-texto-suave); }

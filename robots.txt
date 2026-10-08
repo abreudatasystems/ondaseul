@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abreudatasystems.github.io/ondaseul/sitemap.xml

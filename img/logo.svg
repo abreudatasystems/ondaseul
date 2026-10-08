@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="96" viewBox="0 0 360 96" role="img" aria-label="Ondaseul">
+  <title>Ondaseul</title>
+  <!-- símbolo: círculo (pele/lua) com três ondas = três passos da rotina -->
+  <circle cx="48" cy="48" r="40" fill="#F6E3E0"/>
+  <path d="M18 38 q10 -8 20 0 t20 0 t20 0" fill="none" stroke="#C8707E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M18 50 q10 -8 20 0 t20 0 t20 0" fill="none" stroke="#7FA392" stroke-width="4" stroke-linecap="round"/>
+  <path d="M18 62 q10 -8 20 0 t20 0 t20 0" fill="none" stroke="#2F3A4A" stroke-width="4" stroke-linecap="round"/>
+  <text x="104" y="56" font-family="Fraunces, Georgia, serif" font-size="40" font-weight="600" fill="#2F3A4A" letter-spacing="0.5">ondaseul</text>
+  <text x="106" y="78" font-family="Nunito Sans, Arial, sans-serif" font-size="10.5" fill="#6B6670" letter-spacing="2">ROTINA COREANA · PASSO A PASSO</text>
+</svg>
