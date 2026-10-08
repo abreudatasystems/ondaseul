@@ -541,3 +541,13 @@ a.etiqueta { text-decoration: none; min-height: 32px; padding: 4px 12px; font-si
 @media (max-width: 859px) { .hero__arte { max-width: 300px; } }
 .toast { transform: translateX(-50%) translateY(calc(100% + 40px)); visibility: hidden; }
 .toast.visivel { visibility: visible; }
+
+/* Cupom no resumo do checkout */
+.cupom { margin: 4px 0 16px; }
+.cupom label { display: block; font-weight: 600; margin-bottom: 6px; }
+.cupom__linha { display: flex; gap: 8px; }
+.cupom__linha input { flex: 1; min-width: 0; min-height: 44px; padding: 8px 12px; border: 1px solid var(--cor-borda, #d8cfcc); border-radius: 10px; font: inherit; text-transform: uppercase; }
+.cupom__msg { font-size: .88rem; margin: 6px 0 0; min-height: 1.2em; }
+.cupom__msg--ok { color: #1f7a4a; font-weight: 600; }
+.cupom__msg--erro { color: var(--cor-erro); font-weight: 600; }
+.cupom__msg--aviso { color: var(--cor-texto-suave); }

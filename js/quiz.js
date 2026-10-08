@@ -95,7 +95,7 @@
       '<section class="rotina" aria-labelledby="t-noite"><h2 id="t-noite">☾ Noite</h2>' + passos(rot.noite) +
       (rot.duplaLimpeza ? '<p>Dupla limpeza: primeiro o bálsamo/óleo, que tira protetor e maquiagem; depois a limpeza com água.</p>' : '') +
       '</section></div>' +
-      '<p class="aviso-afiliado">Links de afiliado: se você comprar por eles, a Ondaseul pode receber uma comissão, sem custo extra para você. <a href="transparencia.html">Saiba mais</a>.</p>' +
+      '<p class="aviso-afiliado"><strong>Publicidade:</strong> este conteúdo tem links de afiliado. Se você comprar por eles, a ' + esc((window.ONDA_MARCA || {}).nome || 'loja') + ' pode receber uma comissão, sem custo extra para você. <a href="transparencia.html">Saiba mais</a>.</p>' +
       '<p class="acoes"><a class="botao" href="rotinas/' + tipo + '.html">Ver o guia completo para pele ' + esc(R.TIPOS_PELE[tipo].toLowerCase()) + '</a> ' +
       '<button class="botao botao--claro" type="button" id="refazer">Refazer o quiz</button></p>';
     focar('titulo-resultado');
